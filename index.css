@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Siliguri;
+    src: url('./fonts/Hind\ Siliguri.ttf');
+  }
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #2979FF;
+    color:#FFFFFF;
+    font-family: 'Siliguri';
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+.logo{
+    width: 100%;
+    height: 300px;
+    background-image: url('./images/png/logo-no-background.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.image{
+    width: 100%;
+    height: 500px;
+    background-image: url('./images/jana.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-size: 18px;
+    font-family: 'Siliguri';
+    text-shadow: 2px 2px 2px #ffffff0c;
+    text-align: justify;
+}
+p:last-child{
+    margin-bottom: 50px;
+}
+.btn{
+   width: 50%;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-size: 30px;
+   font-weight: bold;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   margin-left: auto;
+   margin-right: auto;
+   color: #2979FF;
+   background-color: #FFFFFF;
+   text-align: center;
+   border-radius: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: #2979FF;
+}
